@@ -1,5 +1,4 @@
 import { Container, Row, Col } from "react-bootstrap";
-import { MailchimpForm } from "./MailChimpForm";
 
 import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon2 from '../assets/img/icons8-github1.svg';
@@ -20,6 +19,7 @@ export const Footer = () => {
                 <a href="https://github.com/menacingsoul"><img src={navIcon2} alt="" /></a>
             </div>
             <p>Copyright 2023. All Rights Reserved</p>
+            <p>Made with ❤️ by Adarsh.</p>
           </Col>
         </Row>
       </Container>

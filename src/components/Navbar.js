@@ -50,7 +50,7 @@ export const NavBar=()=> {
                 <a href="https://github.com/menacingsoul"><img src={navIcon2} alt="" /></a>
                 
                 </div>
-               <a  href="#connect"> <button className="vvd"><span>Let’s Connect</span></button></a>
+              
           </span>
         </Navbar.Collapse>
       </Container>

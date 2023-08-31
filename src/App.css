@@ -1,17 +1,17 @@
 /************ Custom Font ************/
 @font-face {
-	font-family: Centra;
-	src: url('./assets/font/CentraNo2-Bold.ttf');
+	font-family: Ubuntu-bold;
+	src: url('./assets/font/Ubuntu-Bold.ttf');
 	font-weight: 700;
 }
 @font-face {
-	font-family: Centra;
-	src: url('./assets/font/CentraNo2-Medium.ttf');
+	font-family: Ubuntu-medium;
+	src: url('./assets/font/Ubuntu-Medium.ttf');
 	font-weight: 500;
 }
 @font-face {
-	font-family: Centra;
-	src: url('./assets/font/CentraNo2-Book.ttf');
+	font-family: Ubuntu-regular;
+	src: url('./assets/font/Ubuntu-Regular.ttf');
 	font-weight: 400;
 }
 
@@ -252,13 +252,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
+  font-family: 'Ubuntu-regular', sans-serif;
 }
-.banner .tagline {
-  font-weight: 700;
+#banner-tagline {
+  font-weight: 400;
   letter-spacing: 0.8px;
-  padding: 8px 10px;
-  background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
-  border: 1px solid rgba(255, 255, 255, 0.5);
+  font-family: 'Ubuntu-regular', sans-serif;
+  
   font-size: 20px;
   margin-bottom: 16px;
   display: inline-block;
@@ -506,7 +506,8 @@ font-weight: 1500;
 {
   text-decoration: none;
   color: #B8B8B8;
-}
+} 
+/************ Contact me  Css ************/
 .contact img {
   width: 92%;
 }
@@ -544,25 +545,28 @@ font-weight: 1500;
 .contact form button {
   font-weight: 700;
   color: #000;
-  background-color: #fff;
+  background-color: #4ad7a1;
   padding: 14px 48px;
   font-size: 18px;
   margin-top: 25px;
-  border-radius: 0;
+  border-radius: 20px;
   position: relative;
-  transition: 0.3s ease-in-out;
+  transition: 0.3s ease-out;
 }
 .contact form button span {
   z-index: 1;
   position: relative;
+  border-radius: 20px;
 }
 .contact form button:hover {
   color: #fff;
+  border-radius: 20px;
 }
 .contact form button::before {
   content: "";
-  background: #121212;
+  background: #62b1e9;
   width: 0;
+  border-radius: 20px;
   height: 100%;
   position: absolute;
   top: 0;
@@ -572,6 +576,7 @@ font-weight: 1500;
 }
 .contact form button:hover::before {
   width: 100%;
+  border-radius: 20px;
 }
 
 /************ Footer Css ************/
@@ -581,67 +586,6 @@ font-weight: 1500;
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-}
-.newsletter-bx {
-  background: #FFFFFF;
-  border-radius: 55px;
-  color: #121212;
-  padding: 85px 125px;
-  margin-bottom: 80px;
-  margin-top: -122px;
-}
-.newsletter-bx h3 {
-  font-weight: 700;
-  letter-spacing: 0.5px;
-  line-height: 1.2em;
-}
-.new-email-bx {
-  background: #fff;
-  padding: 5px;
-  border-radius: 20px;
-  position: relative;
-  z-index: 0;
-  display: flex;
-  align-items: center;
-}
-.new-email-bx::before {
-  content: "";
-  background: linear-gradient(90.21deg, #d06ea9 -5.91%, #4A2FBD 111.58%);
-  border-radius: 20px;
-  position: absolute;
-  z-index: -1;
-  top: -1px;
-  left: -1px;
-  bottom: -1px;
-  right: -1px;
-}
-.new-email-bx::after {
-  content: "";
-  background: #fff;
-  border-radius: 20px;
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-}
-.new-email-bx input {
-  width: 100%;
-  color: #121212;
-  font-weight: 500;
-  background: transparent;
-  border: 0;
-  padding: 0 15px;
-}
-.new-email-bx button {
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
-  padding: 20px 65px;
-  color: #fff;
-  font-weight: 500;
-  letter-spacing: 0.5px;
-  border-radius: 18px;
-  
 }
 
 .footer p {

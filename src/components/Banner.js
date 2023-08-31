@@ -53,9 +53,10 @@ export const Banner = () => {
           <Col xs={12} md={6} xl={7}>
            
             
-              
+              <span id="banner-tagline">
               
                 <h1>{`Hi! I'm Adarsh.`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
+                </span>
                   <p>I am currently pursuing Bachelor of Technology (B-Tech) from, <span class="college"><br/>Indian Institute of Technology (BHU), Varanasi.</span></p>
                  <a href="#connect" id ="connect-btn-2"><button onClick={() => console.log('connect')}>Let's Connect <ArrowRightCircle size={25} /></button></a> 
            
