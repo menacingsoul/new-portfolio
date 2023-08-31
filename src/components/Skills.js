@@ -7,6 +7,9 @@ import skill4 from '../assets/img/icons8-python.svg';
 import skill5 from '../assets/img/icons8-data-structures-32.png';
 import skill6 from '../assets/img/icons8-react-native.svg';
 import skill7 from '../assets/img/icons8-mongodb.svg';
+import skill8 from '../assets/img/icons8-nextjs.svg';
+import skill9 from '../assets/img/icons8-react-native.svg';
+import skill10 from '../assets/img/icons8-express-js.svg';
 
 import colorSharp from "../assets/img/color-sharp.png"
 export const Skills =() =>
@@ -60,6 +63,18 @@ export const Skills =() =>
                             <div className="item">
                                 <img src={skill6} alt = "image"/>
                                 <h5>Reactjs</h5>
+                            </div>
+                            <div className="item">
+                                <img src={skill8} alt = "image"/>
+                                <h5>Nextjs</h5>
+                            </div>
+                            <div className="item">
+                                <img src={skill10} alt = "image"/>
+                                <h5>Expressjs</h5>
+                            </div>
+                            <div className="item">
+                                <img src={skill9} alt = "image"/>
+                                <h5>React Native</h5>
                             </div>
                             <div className="item">
                                 <img src={skill7} alt = "image"/>
