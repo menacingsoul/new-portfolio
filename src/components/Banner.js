@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import headerImg from "../assets/img/favpng_programmer.png";
+import headerImg from "../assets/img/kid.png";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 
 
@@ -55,7 +55,7 @@ export const Banner = () => {
             
               <span id="banner-tagline">
               
-                <h1>{`Hi! I'm Adarsh.`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
+                <h1>{`Hey! I'm Adarsh.`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
                 </span>
                   <p>I am currently pursuing Bachelor of Technology (B-Tech) from, <span class="college"><br/>Indian Institute of Technology (BHU), Varanasi.</span></p>
                  <a href="#connect" id ="connect-btn-2"><button onClick={() => console.log('connect')}>Let's Connect <ArrowRightCircle size={25} /></button></a> 
@@ -63,11 +63,7 @@ export const Banner = () => {
         
           </Col>
           <Col xs={12} md={6} xl={5}>
-          
-             
                   <img src={headerImg} alt="Header Img"/>
-              
-         
           </Col>
         </Row>
       </Container>
