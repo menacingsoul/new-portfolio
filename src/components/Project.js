@@ -30,7 +30,7 @@ export const  Project=()=>
     ]
     return(
         <section className="projects" id="projects">
-            <Container >
+            <Container className='project' >
                <Row>
                 <Col size={12}>
                 <h2 id='project-head'>Projects</h2>

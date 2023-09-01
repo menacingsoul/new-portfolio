@@ -47,6 +47,7 @@ p, a, li, button, ul {
   padding: 0;
   line-height: normal;
   text-decoration: none;
+  font-family: 'Ubuntu-regular', sans-serif;
 }
 
 a:hover {
@@ -165,24 +166,12 @@ span.navbar-text {
 	background-color: transparent;
 	transition: 0.3s ease-in-out;
 }
-.navbar-text button span {
-  z-index: 1;
-}
-.navbar-text button::before {
-  content: "";
-  width: 0%;
-  height: 100%;
-  position: absolute;
-  background-color: #fff;
-  left: 0;
-  top: 0;
-  z-index: -1;
-  transition: 0.3s ease-in-out;
-}
+
 #logo
 {
 font-size: 40px;
 margin-top: 0;
+font-family: 'Ubuntu-medium', sans-serif;
 
 }
 .navbar-text button:hover {
@@ -312,7 +301,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   position: relative;
 }
 .skill-bx {
-  background: #332c34;
+  background: #261b27;
   border-radius: 40px;
   text-align: center;
   padding: 60px 50px;
@@ -326,6 +315,7 @@ text-decoration: none;
 .skill h2 {
 	font-size: 45px;
 	font-weight: 700;
+  font-family: 'Ubuntu-regular', sans-serif;
 }
 .skill p {
     color: #B8B8B8;
@@ -355,12 +345,15 @@ text-decoration: none;
 .project {
   padding: 80px 0;
   position: relative;
-  background-color: black;
+  
+  background: #1d131e;
+  border-radius: 40px;
 }
 .project h2 {
 	font-size: 45px;
 	font-weight: 700;
   text-align: center;
+  font-family: 'Ubuntu-regular', sans-serif;
 }
 .project p {
   color: #B8B8B8;
@@ -394,17 +387,6 @@ text-decoration: none;
   transition: 0.3s ease-in-out;
   text-align: center;
   z-index: 0;
-}
-.project .nav.nav-pills .nav-link::before {
-    content: "";
-    position: absolute;
-    width: 0;
-    height: 100%;
-    background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
-    top: 0;
-    left: 0;
-    z-index: -1;
-    transition: 0.3s ease-in-out;
 }
 .project .nav.nav-pills .nav-link.active::before {
     width: 100% !important;
@@ -479,8 +461,9 @@ text-decoration: none;
 
 /************ Projects Css ************/
 .contact {
-  background: linear-gradient(git initgit init #111010 8.91%, #372049 76.58%);
+  background: linear-gradient( #111010 8.91%, #372049 76.58%);
   padding: 60px 0 200px 0;
+  font-family: 'Ubuntu-regular', sans-serif;
 }
 #project-head
 {
@@ -581,6 +564,7 @@ font-weight: 1500;
   color: #B8B8B8;
   letter-spacing: 0.5px;
   margin-top: 10px;
+  font-family: 'Ubuntu-regular', sans-serif;
 }
 #logo2
 {
@@ -588,4 +572,5 @@ font-size: 50px;
 color: #B8B8B8;
 font-weight: 500;
 position: relative;
+font-family: 'Ubuntu-regular', sans-serif;
 }
