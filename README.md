@@ -1,2 +1,2 @@
-# This is my personal portfoilo build usin react & express
+# This is my personal portfolio build usin react & express
 
