@@ -10,9 +10,9 @@ export const  Project=()=>
     const projects = [
         {
             title: "Portfolio ",
-            description: "Build using Reactjs",
+            description: "Build using Reactjs and Expressjs",
             imgUrl: projImg1,
-            github:"",
+            github:"https://github.com/menacingsoul/new-portfolio",
           },
           {
             title: "Quiz Club IIT BHU website",
