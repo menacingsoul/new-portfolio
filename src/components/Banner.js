@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import headerImg from "../assets/img/kid.png";
+import headerImg from "../assets/img/adarsh2.jpg";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 
 
@@ -62,8 +62,8 @@ export const Banner = () => {
            
         
           </Col>
-          <Col xs={12} md={6} xl={5}>
-                  <img src={headerImg} alt="Header Img"/>
+          <Col xs={12} md={6} xl={5}  >
+                  <img  id= "profile-photo"src={headerImg} alt="Header Img"/>
           </Col>
         </Row>
       </Container>
