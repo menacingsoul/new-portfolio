@@ -4,6 +4,7 @@ import projImg2 from '../assets/img/Screenshot2.png'
 import projImg3 from '../assets/img/Screenshot3.png'
 import projImg4 from '../assets/img/Screenshot4.png'
 import projImg5 from '../assets/img/Screenshot5.png'
+import projImg6 from '../assets/img/Screenshot6.png'
 import {Row,Col,Nav,Tab} from 'react-bootstrap'
 import colorSharp2 from '../assets/img/color-sharp2.png'
 import { ProjectCard } from './ProjectCard'
@@ -30,10 +31,10 @@ export const  Project=()=>
             github:"https://github.com/menacingsoul/new-portfolio",
           },
           {
-            title: "insticonnect",
+            title: "Insticonnect",
             description: "Currently under development, a social media kind of app for students",
-            imgUrl: projImg1,
-            github:"https://github.com/menacingsoul/new-portfolio",
+            imgUrl: projImg6,
+            github:"https://github.com/menacingsoul/campus-khabar",
           },
           {
             title: "Quiz Club IIT BHU website",
