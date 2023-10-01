@@ -2,15 +2,36 @@ import { Container } from 'react-bootstrap'
 import projImg1 from '../assets/img/Screenshot1.png'
 import projImg2 from '../assets/img/Screenshot2.png'
 import projImg3 from '../assets/img/Screenshot3.png'
+import projImg4 from '../assets/img/Screenshot4.png'
+import projImg5 from '../assets/img/Screenshot5.png'
 import {Row,Col,Nav,Tab} from 'react-bootstrap'
 import colorSharp2 from '../assets/img/color-sharp2.png'
 import { ProjectCard } from './ProjectCard'
 export const  Project=()=>
 {
     const projects = [
+      {
+        title: "Travel planner",
+        description: "A community based travel planning app build on React native and Express",
+        imgUrl: projImg5,
+        github:"https://github.com/menacingsoul/travel-planner",
+      },
+      {
+        title: "Mood Diary ",
+        description: "A full stack project that uses open AI API to analyse journals",
+        imgUrl: projImg4,
+        github:"https://github.com/menacingsoul/mood-diary",
+      },
+      
         {
             title: "Portfolio ",
             description: "Build using Reactjs and Expressjs",
+            imgUrl: projImg1,
+            github:"https://github.com/menacingsoul/new-portfolio",
+          },
+          {
+            title: "insticonnect",
+            description: "Currently under development, a social media kind of app for students",
             imgUrl: projImg1,
             github:"https://github.com/menacingsoul/new-portfolio",
           },
