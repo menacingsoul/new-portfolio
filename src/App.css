@@ -93,7 +93,8 @@ nav.navbar {
 }
 nav.navbar.scrolled {
   padding: 0px 0;
-  background-color: #121212;
+  background-color: #a86fc9;
+  
 }
 nav.navbar a.navbar-brand {
    margin-right: 5%;
@@ -169,7 +170,7 @@ span.navbar-text {
 
 #logo
 {
-font-size: 40px;
+font-size: 32px;
 margin-top: 0;
 font-family: 'Ubuntu-medium', sans-serif;
 
@@ -294,7 +295,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .txt-rotate > .wrap {
   border-right: 0.08em solid #666;
 }
-
+#bio
+{
+  font-size: 25px;
+}
 /************ Skills Css ************/
 .skill {
   padding: 0 0 50px 0;
@@ -469,11 +473,27 @@ text-decoration: none;
 
 #profile-photo
 {
-  border-radius: 50%;
-  height:95%;
-  width: 80%;
+  
+  height:100%;
+  width:100%;
 }
-
+@media (max-width: 426px)
+{
+  #profile-photo
+{
+  margin-top: 1rem;
+  height:100%;
+  width:100%;
+}
+#intro-text
+{
+  font-size: 50px;
+}
+#bio
+{
+  font-size: 20px;
+}
+}
 /************ Contact me  Css ************/
 
 .contact {
