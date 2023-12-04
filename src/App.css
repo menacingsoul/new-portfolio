@@ -119,6 +119,23 @@ span.navbar-text {
     display: flex;
     align-items: center;
 }
+#resume-btn
+{
+  font-size: 16px;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+  border:none;
+  padding: 11px 18px;
+  position: relative;
+  border-radius: 50px;
+  background-color: #c37add;
+  transition: 0.3s ease-in-out;
+}
+#resume-btn:hover
+{
+  background-color: #ffffff;
+  padding: 11px 18px;
+}
 .social-icon {
     display: inline-block;
     margin-left: 14px;
