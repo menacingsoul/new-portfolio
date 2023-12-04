@@ -598,7 +598,7 @@ text-decoration: none;
 .footer {
   padding: 50px 0 50px 0;
   background-image: url('./assets/img/footer-bg.png');
-  background-position: center center;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -611,11 +611,21 @@ text-decoration: none;
   margin-top: 10px;
   font-family: 'Ubuntu-regular', sans-serif;
 }
-#logo2
-{
-font-size: 50px;
-color: #B8B8B8;
-font-weight: 500;
-position: relative;
-font-family: 'Ubuntu-regular', sans-serif;
+.footer span{
+  font-weight: 400;
+  font-size: 35px;
+  color: #B8B8B8;
+  letter-spacing: 0.5px;
+  font-family: 'Ubuntu-regular', sans-serif;
+ 
+}
+
+@media (max-width: 576px) {
+  #align-items-center
+  {
+    text-align: center;
+    justify-content: center;
+
+
+  }
 }
