@@ -44,7 +44,7 @@ export const NavBar=()=> {
             
           </Nav>
           <span className='navbar-text'>
-            <a href='https://docs.google.com/document/d/1GRK-1yxGjKOwKyfCdshrWU9mOH4mHeWAv7fKBm8-y08/edit?usp=sharing'><button id='resume-btn'>Resume</button></a>
+            <a href='https://docs.google.com/document/d/1_Y7AI0EDkjShmGbhK1390GbLM2j6kMnPW3V9DS76hu0/edit?usp=sharing'><button id='resume-btn'>Resume</button></a>
             <div className='social-icon'>
                 <a href="https://www.linkedin.com/in/adarsh--/"><img src={navIcon1} alt="linkedin" /></a>
                 <a href="https://github.com/menacingsoul"><img src={navIcon2} alt="github" /></a>
