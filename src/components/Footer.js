@@ -17,7 +17,7 @@ export const Footer = () => {
             <div className="social-icon">
             <a href="https://www.linkedin.com/in/adarsh--/"><img src={navIcon1} alt="" /></a>
              <a href="https://github.com/menacingsoul"><img src={navIcon2} alt="" /></a>
-             <a href="https://codeforces.com/profile/menacing_soul"><img src={navIcon3} alt="codeforces" /></a>
+             <a href="https://codeforces.com/profile/syntax_ninja"><img src={navIcon3} alt="codeforces" /></a>
             </div>
             <p>Made with ❤️&☕ by Adarsh.</p>
           </Col>
