@@ -31,12 +31,6 @@ export const  Project=()=>
             github:"https://github.com/menacingsoul/new-portfolio",
           },
           {
-            title: "Insticonnect",
-            description: "Currently under development, a social media kind of app for students",
-            imgUrl: projImg6,
-            github:"https://github.com/menacingsoul/campus-khabar",
-          },
-          {
             title: "Quiz Club IIT BHU website",
             description: "Built using HTML, CSS, Javascript",
             imgUrl: projImg2,
